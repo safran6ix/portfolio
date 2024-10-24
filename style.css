@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+
+/*NAVBAR*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    /* background-color: #eee; */
+}
+.navbar-tags{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    height: 50px;
+    width: 800px;
+    /* background-color: aqua; */
+    /* right: 10px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+}
+.navbar-tags p{
+    cursor: pointer;
+    transition: 300ms;
+}
+.navbar-tags p:hover{
+    color: rgba(245, 245, 245, 0.722);
+}
+.navbar-tags a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.navbar-tags a:hover{
+    color: rgba(245, 245, 245, 0.722);
+}
+#call-icon{
+    margin-right: 10px;
+}
+
+/*BODY*/
+.body-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    /* background-color: bisque; */
+    top: 120px;
+}
+.body-container h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 60px;
+    margin-top: -100px;
+    font-weight: 700;
+}
+.body-container h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 60px;
+    margin-top: -100px;
+    margin-left: 15px;
+    font-weight: 700;
+    color: rgb(255, 187, 0);
+}
+.body-container p{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 15px;
+    width: 50%;
+    height: 100px;
+    /* background-color: aqua; */
+    font-weight: 400;
+    text-align: center;
+    top: 245px;
+}
+.social-box01{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    /* background-color: aqua; */
+    top: 350px;
+    color: rgb(245, 245, 245);
+    font-size: 18px;
+}
