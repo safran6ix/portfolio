@@ -108,7 +108,7 @@ body{
     position: absolute;
     width: 100%;
     height: 800px;
-    /* background-color: rgba(0, 255, 255, 0.196); */
+    background-color: rgba(0, 255, 255, 0.196);
     top: 600px;
 }
 .about-container h1{
@@ -187,4 +187,93 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     padding-left: 80px;
+}
+.about-description button{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 187, 0);
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    bottom: 10px;
+    left: 80px;
+    transition: 400ms;
+}
+.about-description button:hover{
+    background-color: rgba(206, 152, 3, 0.808);
+    cursor: pointer;   
+}
+
+/*BLOGS-CONTAINER*/
+.blogs-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    background-color: #024a53;
+    top: 1410px;
+}
+.blogs-container h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 187, 0);
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: -400px;
+}
+.blogs-container hr{
+    position: absolute;
+    width: 40px;
+    border:  1px solid rgb(255, 187, 0);
+    top: 225px;
+}
+/* .pad-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+} */
+.pad01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+.pad02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+.pad03{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+.pad04{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
 }
