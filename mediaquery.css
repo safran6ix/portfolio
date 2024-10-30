@@ -1,0 +1,87 @@
+@media screen and (max-width:460px){
+    *{
+        transition: 400ms;
+    }
+    .navbar{
+        display: none;
+    }
+    .body-container{
+        width: 100%;
+        height: 500px;
+        /* background-color: bisque; */
+        top: 50px;
+    }
+    .body-container h1{
+        position: absolute;
+        top: 200px;
+        font-size: 20px;
+    }
+    .body-container h2{
+        position: absolute;
+        top: 220px;
+        font-size: 70px;
+    }
+    .body-container p{
+        width: 90%;
+        height: 200px;
+        /* background-color: aqua; */
+        top: 220px;
+    }
+    .social-box01{
+        top: 340px;
+    }
+
+
+    .about-container{
+        height: 1400px;
+        /* background-color: rgba(0, 255, 255, 0.196); */
+        top: 500px;
+    }
+    .about-container h1{
+        position: absolute;
+        top: 585px;
+    }
+    .about-card{
+        height: 600px;
+        /* background-color: white; */
+    }
+    .about-card img{
+        width: 317px;
+        border-radius: 10px;
+        margin-left: 0;
+    }
+    .about-description{
+        width: 100%;
+        /* background-color: cadetblue; */
+        margin-left: 0%;
+        top: 500px;
+    }
+    .about-description h4{
+        margin-top: -250px;
+        font-size: 18px;
+        margin-left: -220px;
+    }
+    .about-description p{
+        width: 300px;
+        margin-left: -40px;
+    }
+    
+
+
+    .blogs-container{
+        /* background-color: #024a53; */
+        top: 1900px;
+    }
+    .pad-container{
+        display: block;
+        height: 1400px;
+        /* background-color: aqua; */
+        top: 280px;
+    }
+    .pad-container div{
+        /* background-color: rgba(255, 255, 255, 0.4); */
+        margin: 25%;
+    }
+
+
+}
