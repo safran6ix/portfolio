@@ -83,5 +83,11 @@
         margin: 25%;
     }
 
-
+    .footer-container{
+        top: 3550px;
+    }
+    .footer-container h3{
+        margin-top: -250px;
+    }
+    
 }
