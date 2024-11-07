@@ -53,8 +53,12 @@
     .about-description{
         width: 100%;
         /* background-color: cadetblue; */
-        margin-left: 0%;
+        margin-left: 10%;
         top: 500px;
+    }
+    .about-description h2{
+        margin-left: -20px;
+        font-size: 28px;
     }
     .about-description h4{
         margin-top: -250px;
