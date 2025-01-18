@@ -42,6 +42,7 @@
         top: 585px;
     }
     .about-card{
+        width: 100%;
         height: 600px;
         /* background-color: white; */
     }
